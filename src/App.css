@@ -1,0 +1,19 @@
+
+
+@media (max-width: 768px) {
+  .container {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .navbar {
+    flex-direction: column;
+  }
+
+
+    
+#con{
+justify-self: center;
+    width: 150%;
+}
+}

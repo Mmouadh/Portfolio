@@ -26,11 +26,11 @@ export const Contact = () => {
 
   return (
     <section
-      id="Contact"
+      id="contact"
       className="min-h-screen flex items-center justify-center py-20"
     >
       <RevealOnScroll>
-        <div className="px-4 w-150">
+        <div className="px-4 w-150" id="con">
           <h2
             className="text-3xl font-bold mb-8 bg-gradient-to-r from-blue-500 via-cyan-400 to-teal-500 bg-clip-text
          text-transparent text-center"

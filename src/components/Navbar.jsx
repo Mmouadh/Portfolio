@@ -3,7 +3,8 @@ import { useEffect } from "react";
 export const Navbar = ({ menuOpen, setMenuOpen }) => {
   useEffect(() => {
     document.body.style.overflow = menuOpen ? "hidden" : "";
-  }, [menuOpen]);
+  },);
+
 
   return (
     <nav className="fixed top-0 w-full z-40 bg-[rgba(10, 10, 10, 0.8)] backdrop-blur-lg border-b border-white/10 shadow-lg">
@@ -13,7 +14,7 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
           Moua<span className="text-blue-500 font-bold text-5xl">Dev</span>
           </a>
           <div
-            className="w-7 h-5 relative cursor-pointer z-40 md:hidden"
+            className="w-7 h-5 relative cursor-pointer z-40 md:hidden "id='mobileMenu'
             onClick={() => setMenuOpen((prev) => !prev)}
           >
             &#9776;
@@ -38,7 +39,7 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
               Projects
             </a>
             <a
-              href="#Contact"
+              href="#contact"
               className="text-gray-300 hove:text-white transition-colors"
             >
               Contact me

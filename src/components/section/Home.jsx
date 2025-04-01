@@ -28,7 +28,7 @@ export const Home = () => {
               View Projects
             </a>
             <a
-              href="#Contact"
+              href="#contact"
               className="border border-cyan-500/50 text-cyan-500 py-3 px-6 rounded font-medium transition-all duration-200 
              hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(6, 182, 212, 0.2)] hover:bg-cyan-500/10"
             >

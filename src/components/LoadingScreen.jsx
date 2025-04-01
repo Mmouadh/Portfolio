@@ -3,7 +3,7 @@ import { useState } from "react";
 
 export const LoadingScreen = ({onComplete}) => {
   const [text, settext] = useState("");
-  const fulltext = "<WELCOME>";
+  const fulltext = "<WELCOME />";
   useEffect(() => {
     let index= 0;
     const interval = setInterval(() =>{

@@ -98,7 +98,7 @@ export const Projects = () => {
                 integration, and customizable product inventory.
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
-                {["Next.js", "TypeScript", "Stripe", "PostgreSQL"].map(
+                {["React","Next.js", "JavaScript", "CSS", "PostgreSQL"].map(
                   (tech) => (
                     <span
                       key={tech}

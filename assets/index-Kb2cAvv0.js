@@ -79,7 +79,7 @@ Error generating stack: `+a.message+`
               hover:-translate-y-1 hover:border-blue-500/30\r
               hover:shadow-[0_4px_20px_rgba(59,130,246,0.1)]\r
               transition-all\r
-            `,children:[b.jsx("h3",{className:"text-xl font-bold mb-2",children:"E-Commerce Web App (mern)"}),b.jsx("p",{className:"text-gray-400 mb-4",children:"Full-stack e-commerce with modern UI, secure payment integration, and customizable product inventory."}),b.jsx("div",{className:"flex flex-wrap gap-2 mb-4",children:["MongoDB","Express.js","React","Node.js","CSS"].map(S=>b.jsx("span",{className:`\r
+            `,children:[b.jsx("h3",{className:"text-xl font-bold mb-2",children:"E-Commerce Web App (MERN)"}),b.jsx("p",{className:"text-gray-400 mb-4",children:"Full-stack e-commerce with modern UI, secure payment integration, and customizable product inventory."}),b.jsx("div",{className:"flex flex-wrap gap-2 mb-4",children:["MongoDB","Express.js","React","Node.js","CSS"].map(S=>b.jsx("span",{className:`\r
                       bg-blue-500/10 text-blue-500 py-1 px-3 \r
                       rounded-full text-sm\r
                       transition\r

@@ -92,7 +92,7 @@ export const Projects = () => {
               transition-all
             "
             >
-              <h3 className="text-xl font-bold mb-2">E-Commerce Web App (mern)</h3>
+              <h3 className="text-xl font-bold mb-2">E-Commerce Web App (MERN)</h3>
               <p className="text-gray-400 mb-4">
                 Full-stack e-commerce with modern UI, secure payment
                 integration, and customizable product inventory.

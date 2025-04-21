@@ -92,13 +92,13 @@ export const Projects = () => {
               transition-all
             "
             >
-              <h3 className="text-xl font-bold mb-2">E-Commerce Web App</h3>
+              <h3 className="text-xl font-bold mb-2">E-Commerce Web App (mern)</h3>
               <p className="text-gray-400 mb-4">
                 Full-stack e-commerce with modern UI, secure payment
                 integration, and customizable product inventory.
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
-                {["React","Next.js", "JavaScript", "CSS", "PostgreSQL"].map(
+                {[ "MongoDB","Express.js","React","Node.js", "CSS",].map(
                   (tech) => (
                     <span
                       key={tech}

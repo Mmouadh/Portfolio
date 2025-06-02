@@ -1,0 +1,63 @@
+{
+  "home": {
+    "headline": "Salut, je suis Mouadh !",
+    "intro": "Je m'appelle Mouadh Jeljeli, développeur web de 26 ans basé en Tunisie. Je suis spécialisé dans la création d’applications web modernes, propres et responsives en utilisant HTML, CSS, JavaScript et React. Passionné par l’expérience utilisateur, j’utilise également des outils comme Bootstrap, Tailwind CSS, Next.js et Node.js. Toujours ouvert à des collaborations stimulantes — construisons quelque chose d’incroyable ensemble !",
+    "viewProjects": "Voir les projets",
+    "contactMe": "Contactez-moi"
+  },
+  "Navbar": {
+    "home": "Accueil",
+    "about": "À propos",
+    "projects": "Projets",
+    "contact": "Contactez-moi",
+     "language": "Langue"
+  },
+    "about": {
+    "title": "À propos de moi",
+    "description": "Je suis Mouadh Jeljeli, un développeur web spécialisé en résolution de problèmes et en création d'applications web. Je conçois des sites efficaces et conviviaux et j’aime relever de nouveaux défis pour créer des solutions numériques percutantes.",
+    "frontend": "Front-End",
+    "backend": "Back-End",
+    "databases": "Bases de données",
+    "education": "Éducation",
+    "bachelor": "Bac informatique",
+    "bachelorYears": "(2016–2021)",
+    "technician": "Technicien en informatique de gestion",
+    "technicianYears": "(2022–2024)",
+    "coursework": "Cours pertinents",
+    "courseList": "Gestion du matériel informatique, Développement Web, Design Web Responsive, MySQL",
+    "experience": "Expérience professionnelle",
+    "internship": "Stage à la Technopole Borj Cédria",
+    "internshipYear": "(2023)",
+    "internshipDesc": "Assistance à la création d'interfaces front-end avec WordPress, configuration de plugins et support technique."
+  },
+   "projects": {
+    "title": "Projets",
+    "viewLink": "Voir le projet →",
+    "crud": {
+      "title": "Site CRUDS + Page de Connexion (Créer, Lire, Mettre à jour, Supprimer & Rechercher)",
+      "description": "Un site CRUDS permet aux utilisateurs de créer, lire, mettre à jour, supprimer et rechercher des entrées de données, assurant une gestion efficace du contenu dynamique."
+    },
+    "portfolio": {
+      "title": "Site Portfolio Personnel",
+      "description": "Un portfolio moderne et responsive développé avec React et Tailwind CSS. Il présente mes projets, mes compétences et mes informations de contact avec des animations fluides et un design convivial."
+    },
+    "ecommerce": {
+      "title": "Site E-Commerce MERN Stack",
+      "description": "Application e-commerce MERN avec une interface moderne et un inventaire de produits personnalisable. Conçue pour la scalabilité et les performances, cette plateforme offre des interactions fluides, une gestion intuitive des produits et une expérience responsive sur tous les appareils."
+    },
+    "chat": {
+      "title": "Application de Chat en Temps Réel",
+      "description": "Une application de chat en temps réel développée avec React, Firebase Auth pour la connexion via Google, et Firestore pour le stockage des messages en temps réel. Les utilisateurs peuvent se connecter facilement avec Google, et les messages sont synchronisés instantanément entre les appareils pour une expérience dynamique et fluide."
+    }
+  },
+  
+  "contact": {
+    "title": "Contactez-moi",
+    "namePlaceholder": "Nom... ",
+    "emailPlaceholder": "Email@gmail.com",
+    "messagePlaceholder": "Votre message...",
+    "sendButton": "Envoyer",
+    "successAlert": "Message envoyé !",
+    "errorAlert": "Oups ! Une erreur s'est produite. Veuillez réessayer."
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "home": {
+    "headline": "Hi, I'm Mouadh!",
+    "intro": "I'm Mouadh Jeljeli, a 26-year-old web developer based in Tunisia. I specialize in building clean, modern, and responsive web applications using HTML, CSS, JavaScript, and React. Passionate about great user experiences, I also work with tools like Bootstrap, Tailwind CSS, Next.js, and Node.js. I'm always open to exciting collaborations — let's create something amazing together!",
+    "viewProjects": "View Projects",
+    "contactMe": "Contact Me"
+  },
+    
+  "Navbar": {
+    "home": "Home",
+    "about": "About",
+    "projects": "Projects",
+    "contact": "Contact me",
+     "language": "Language"
+  },
+   "about": {
+    "title": "About Me",
+    "description": "I'm Mouadh Jeljeli, a web developer skilled in problem-solving and building web applications. I specialize in creating efficient, user-friendly websites and enjoy tackling new challenges to create impactful digital solutions.",
+    "frontend": "Front End",
+    "backend": "Back End",
+    "databases": "Databases",
+    "education": "Education",
+    "bachelor": "Bachelor of Computer Science",
+    "bachelorYears": "(2016–2021)",
+    "technician": "IT Management Technician",
+    "technicianYears": "(2022–2024)",
+    "coursework": "Relevant Coursework",
+    "courseList": "Computer Hardware Management, Web Development, Responsive Web Design, MySQL",
+    "experience": "Work Experience",
+    "internship": "Internship at Technopole Borj Cédria",
+    "internshipYear": "(2023)",
+    "internshipDesc": "Assisted in building front-end interfaces using WordPress, configuring plugins, and providing technical support."
+  },
+  "projects": {
+    "title": "Featured Projects",
+    "viewLink": "View Project →",
+    "crud": {
+      "title": "CRUDS Website + Login (Create, Read, Update, Delete & Search)",
+      "description": "A CRUD website allows users to create, read, update, delete and search data entries, enabling efficient management of dynamic content."
+    },
+    "portfolio": {
+      "title": "Personal Portfolio Website",
+      "description": "A modern and responsive portfolio built with React and Tailwind CSS. Showcases my projects, skills, and contact information with smooth animations and a user-friendly design."
+    },
+    "ecommerce": {
+      "title": "MERN Stack E-Commerce Website",
+      "description": "MERN stack e-commerce app with modern UI and customizable product inventory. Designed for scalability and performance, this platform offers seamless user interactions, intuitive product management, and a responsive experience across all devices."
+    },
+    "chat": {
+      "title": "Real-Time Chat App",
+      "description": "A real-time chat app built with React, Firebase Authentication for Google login, and Firestore for real-time message storage. Users can log in easily with Google, and messages are instantly synced across devices, providing a seamless and dynamic chat experience."
+    }
+  },
+  "contact": {
+    "title": "Get In Touch",
+    "namePlaceholder": "Name...",
+    "emailPlaceholder": "Email@gmail.com",
+    "messagePlaceholder": "Your Message...",
+    "sendButton": "Send",
+    "successAlert": "Message Sent!",
+    "errorAlert": "Oops! Something went wrong. Please try again"
+  }
+}
+

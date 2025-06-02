@@ -21,7 +21,7 @@ export const Projects = () => {
       title: t("projects.ecommerce.title"),
       description: t("projects.ecommerce.description"),
       tech: ["MongoDB", "Express.js", "React", "Node.js", "CSS"],
-      link: "#",
+      link: "https://mmouadh.github.io/Ecomm-only-Front/",
     },
     {
       title: t("projects.chat.title"),
@@ -65,6 +65,8 @@ export const Projects = () => {
                 <div className="flex justify-between items-center">
                   <a
                     href={project.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="text-blue-400 hover:text-blue-300 transition-colors my-4"
                   >
                     {t("projects.viewLink")}

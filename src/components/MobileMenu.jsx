@@ -62,7 +62,7 @@ export const MobileMenu = ({ menuOpen, setMenuOpen }) => {
             e.stopPropagation();
             setShowLangMenu(!showLangMenu);
           }}
-          className="text-white text-lg font-semibold bg-blue-500/20 px-3 py-1 rounded hover:bg-blue-500/30 transition"
+          className="text-white text-lg font-semibold bg-blue-500/45  px-3 py-1 rounded hover:bg-blue-500/40 transition"
         >
           🌐 {t("Navbar.language")}
         </button>

@@ -43,7 +43,8 @@
     },
     "ecommerce": {
       "title": "Site E-Commerce MERN Stack",
-      "description": "Application e-commerce MERN avec une interface moderne et un inventaire de produits personnalisable. Conçue pour la scalabilité et les performances, cette plateforme offre des interactions fluides, une gestion intuitive des produits et une expérience responsive sur tous les appareils."
+      "description": "Application e-commerce MERN avec une interface moderne et un inventaire de produits personnalisable. Conçue pour la scalabilité et les performances, cette plateforme offre des interactions fluides, une gestion intuitive des produits et une expérience responsive sur tous les appareils.",
+       "link": "https://github.com/mouadhjeljeli/crud-app"
     },
     "chat": {
       "title": "Application de Chat en Temps Réel",

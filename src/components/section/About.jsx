@@ -14,7 +14,7 @@ export const About = () => {
   ];
 
   const backendSkills = ["Node.js", "Express.js", "Php"];
-  const databases = ["Oracle", "MonogoDB", "MySQL"];
+  const databases = ["Oracle", "MongoDB", "MySQL"];
 
   return (
     <section

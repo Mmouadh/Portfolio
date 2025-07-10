@@ -27,7 +27,7 @@ export const About = () => {
             {t("about.title")}
           </h2>
           <div className="rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all">
-            <p className="text-gray-400 mb-6">{t("about.description")}</p>
+            <p className="mb-6">{t("about.description")}</p>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
                 <h3 className="text-xl font-bold mb-4">{t("about.frontend")}</h3>
@@ -77,7 +77,7 @@ export const About = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
             <div className="p-6 rounded-xl border-white/10 border hover:-translate-x-1 transition-all">
               <h3 className="text-xl font-bold mb-4">{t("about.education")}</h3>
-              <ul className="list-disc list-inside text-gray-300 space-y-2">
+              <ul className="list-disc list-inside space-y-2">
                 <li>
                   <b>{t("about.bachelor")}</b>{" "}
                   <span className="inline-block ml-50">

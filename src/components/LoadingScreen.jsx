@@ -3,7 +3,7 @@ import { useState } from "react";
 
 export const LoadingScreen = ({onComplete}) => {
   const [text, settext] = useState("");
-  const fulltext = "  <WELCOME.. />";
+  const fulltext = "  <WELCOME.. /> ";
   useEffect(() => {
     let index= 0;
     const interval = setInterval(() =>{
@@ -25,7 +25,7 @@ export const LoadingScreen = ({onComplete}) => {
  
   return (
     <div className="fixed inset-0 z-50 bg-black text-gray-100 flex flex-col items-center justify-center">
-      <div className="mb-4 text-4xl font-mono font-bold ml-10">
+      <div className="mb-4 text-3xl font-mono font-bold ml-10">
         {text} <span className="animate-blink ml-1"> | </span>
       </div>
 

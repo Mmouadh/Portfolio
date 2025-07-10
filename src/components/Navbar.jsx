@@ -11,11 +11,15 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
 
   return (
     <nav className="fixed top-0 w-full z-40 bg-[rgba(10, 10, 10, 0.8)] backdrop-blur-lg border-b border-white/10 shadow-lg">
-      <div className="max-w-5xl mx-auto px-4">
+      <div className="max-w-5xl mx-auto px-4 text-[color:var(--text-color)]">
         <div className="flex justify-between items-center h-16">
-          <a href="#home" className="font-mono text-4xl font-bold text-white">
-            Moua<span className="text-blue-500 font-bold text-5xl">Dev</span>
+          <a href="#home" className="font-mono text-4xl font-bold">
+            Moua
+            <span className="text-blue-500 dark:text-blue-400 font-bold text-5xl">
+              Dev
+            </span>
           </a>
+
           <div
             className="w-7 h-5 relative cursor-pointer z-40 md:hidden"
             id="mobileMenu"
@@ -23,29 +27,18 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
           >
             &#9776;
           </div>
+
           <div className="hidden md:flex items-center space-x-8">
-            <a
-              href="#home"
-              className="text-gray-300 hover:text-white transition-colors"
-            >
+            <a href="#home" className="hover:opacity-90 transition-colors">
               {t("Navbar.home")}
             </a>
-            <a
-              href="#about"
-              className="text-gray-300 hover:text-white transition-colors"
-            >
+            <a href="#about" className="hover:opacity-90 transition-colors">
               {t("Navbar.about")}
             </a>
-            <a
-              href="#project"
-              className="text-gray-300 hover:text-white transition-colors"
-            >
+            <a href="#project" className="hover:opacity-90 transition-colors">
               {t("Navbar.projects")}
             </a>
-            <a
-              href="#contact"
-              className="text-gray-300 hover:text-white transition-colors"
-            >
+            <a href="#contact" className="hover:opacity-90 transition-colors">
               {t("Navbar.contact")}
             </a>
             <LanguageSwitcher />

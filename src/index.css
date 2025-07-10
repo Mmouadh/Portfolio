@@ -1,18 +1,83 @@
 @import "tailwindcss";
 
-html,
+/* ==========================
+   🌗 Theme Custom Properties
+   ========================== */
+:root {
+  --bg-color: #ffffff;
+  --text-color: #4b5563;
+  --input-bg: #ffffff;
+  --input-text: #000000;
+  --input-border: #59dacf;
+  --input-placeholder: #6b7280; /* gray-500 for light mode */
+}
+
+html.dark {
+  --bg-color: #0a0a0a;
+  --text-color: #f3f4f6;
+  --input-bg: #1e1e1e;
+  --input-text: #f3f4f6;
+  --input-border: #444444;
+  --input-placeholder: #d1d5db; /* gray-300 for dark mode */
+}
+
+/* ==========================
+   🌐 Base Styles
+   ========================== */
 body {
   margin: 0;
   padding: 0;
   font-family: "Space Grotesk", sans-serif;
-  background: #0a0a0a;
-  color: #f3f4f6;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
+/* ==========================
+   ✍️ Form Elements
+   ========================== */
+input,
+textarea,
+select {
+  background-color: var(--input-bg);
+  color: var(--input-text);
+  border: 1px solid var(--input-border);
+  padding: 0.5rem;
+  border-radius: 4px;
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease,
+    border-color 0.3s ease;
+}
+
+/* ✅ NEW: Placeholder Styling */
+input::placeholder,
+textarea::placeholder,
+select::placeholder {
+  color: var(--input-placeholder);
+  transition: color 0.3s ease;
+}
+
+/* ==========================
+   ✨ Reveal on Scroll
+   ========================== */
+.reveal {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.7s ease, transform 0.7s ease;
+}
+
+.reveal.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* ==========================
+   ⚙️ Tailwind Custom Utilities
+   ========================== */
 @layer utilities {
   @keyframes blink {
-    0%,
-    100% {
+    0%, 100% {
       opacity: 1;
     }
     50% {
@@ -36,14 +101,4 @@ body {
   .animate-loading-bar {
     animation: loading 0.8s ease infinite;
   }
-}
-.reveal {
-  opacity: 0;
-  transform: translateY(20px);
-  transition: opacity 0.7s ease, transform 0.7s ease;
-}
-
-.reveal.visible {
-  opacity: 1;
-  transform: translateY(0);
 }

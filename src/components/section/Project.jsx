@@ -29,7 +29,7 @@ export const Projects = () => {
       title: t("projects.chat.title"),
       description: t("projects.chat.description"),
       tech: ["React", "FireBase", "CSS"],
-      link: "#",
+      link: "https://mmouadh.github.io/ChatApp/",
     },
   ];
 

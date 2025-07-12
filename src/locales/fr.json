@@ -10,9 +10,9 @@
     "about": "À propos",
     "projects": "Projets",
     "contact": "Contactez-moi",
-     "language": "Langue"
+    "language": "Langue"
   },
-    "about": {
+  "about": {
     "title": "À propos de moi",
     "description": "Je suis Mouadh Jeljeli, un développeur web spécialisé en résolution de problèmes et en création d'applications web. Je conçois des sites efficaces et conviviaux et j’aime relever de nouveaux défis pour créer des solutions numériques percutantes.",
     "frontend": "Front-End",
@@ -30,9 +30,12 @@
     "internshipYear": "(2023)",
     "internshipDesc": "Assistance à la création d'interfaces front-end avec WordPress, configuration de plugins et support technique."
   },
-   "projects": {
+  "projects": {
     "title": "Projets",
     "viewLink": "Voir le projet →",
+
+    "portfolioPopup": "Tu es déjà sur le portfolio 👀",
+
     "crud": {
       "title": "Site CRUDS + Page de Connexion (Créer, Lire, Mettre à jour, Supprimer & Rechercher)",
       "description": "Un site CRUDS permet aux utilisateurs de créer, lire, mettre à jour, supprimer et rechercher des entrées de données, assurant une gestion efficace du contenu dynamique."
@@ -44,14 +47,13 @@
     "ecommerce": {
       "title": "Site E-Commerce MERN Stack",
       "description": "Application e-commerce MERN avec une interface moderne et un inventaire de produits personnalisable. Conçue pour la scalabilité et les performances, cette plateforme offre des interactions fluides, une gestion intuitive des produits et une expérience responsive sur tous les appareils.",
-       "link": "https://github.com/mouadhjeljeli/crud-app"
+      "link": "https://github.com/mouadhjeljeli/crud-app"
     },
     "chat": {
       "title": "Application de Chat en Temps Réel",
       "description": "Une application de chat en temps réel développée avec React, Firebase Auth pour la connexion via Google, et Firestore pour le stockage des messages en temps réel. Les utilisateurs peuvent se connecter facilement avec Google, et les messages sont synchronisés instantanément entre les appareils pour une expérience dynamique et fluide."
     }
   },
-  
   "contact": {
     "title": "Contactez-moi",
     "namePlaceholder": "Nom... ",

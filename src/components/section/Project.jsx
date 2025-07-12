@@ -1,27 +1,29 @@
 import { useTranslation } from "react-i18next";
 import { RevealOnScroll } from "../RevealOnScroll";
+import { useState } from "react";
 
 export const Projects = () => {
   const { t } = useTranslation();
+  const [showPopup, setShowPopup] = useState(false);
 
   const projects = [
     {
       title: t("projects.crud.title"),
       description: t("projects.crud.description"),
       tech: ["HTML", "CSS", "JavaScript", "Php"],
-      link: "#",
+      link: "https://mmouadh.github.io/crud/",
     },
     {
       title: t("projects.portfolio.title"),
       description: t("projects.portfolio.description"),
       tech: ["React", "TailwindsCSS", "EmailJS"],
-      link: "#",
+      link: "#portfolio", 
     },
     {
       title: t("projects.ecommerce.title"),
       description: t("projects.ecommerce.description"),
       tech: ["MongoDB", "Express.js", "React", "Node.js", "CSS"],
-      link: "https://mmouadh.github.io/Ecomm-only-Front/",
+      link: "https://mmouadh.github.io/Ecomm-only-Front/", 
     },
     {
       title: t("projects.chat.title"),
@@ -63,19 +65,40 @@ export const Projects = () => {
                 </div>
 
                 <div className="flex justify-between items-center">
-                  <a
-                    href={project.link}
-                    target="_blank"
-                    rel="noopener noreferrer"
+                  <button
+                    onClick={() => {
+                      if (project.link === "#portfolio") {
+                        setShowPopup(true);
+                      } else {
+                        window.open(project.link, "_blank");
+                      }
+                    }}
                     className="text-blue-400 hover:text-blue-300 transition-colors my-4"
                   >
                     {t("projects.viewLink")}
-                  </a>
+                  </button>
                 </div>
               </div>
             ))}
           </div>
         </div>
+
+        {/* Popup Modal for Portfolio */}
+        {showPopup && (
+          <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-50">
+            <div className="bg-white text-black p-6 rounded-xl shadow-xl text-center max-w-sm w-full animate-fade-in">
+              <p className="text-lg font-medium mb-4">
+                {t("projects.portfolioPopup")}
+              </p>
+              <button
+                onClick={() => setShowPopup(false)}
+                className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-md transition"
+              >
+                Close
+              </button>
+            </div>
+          </div>
+        )}
       </RevealOnScroll>
     </section>
   );

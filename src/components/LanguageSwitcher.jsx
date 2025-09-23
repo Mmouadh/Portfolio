@@ -16,7 +16,7 @@ const LanguageSwitcher = () => {
         aria-label="Switch to English"
         className="hover:scale-110 transition"
       >
-        <Flag code="GB" style={{ width: 24, height: 16 }} />
+        <Flag code="GB" style={{ width: 24, height: 16 , cursor: "pointer" }} />
       </button>
       <button
         onClick={() => changeLanguage("fr")}
@@ -24,7 +24,7 @@ const LanguageSwitcher = () => {
         aria-label="Switch to French"
         className="hover:scale-110 transition"
       >
-        <Flag code="FR" style={{ width: 24, height: 16 }} />
+        <Flag code="FR" style={{ width: 24, height: 16, cursor: "pointer" }} />
       </button>
     </div>
   );

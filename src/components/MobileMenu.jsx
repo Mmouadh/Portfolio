@@ -33,7 +33,9 @@ export const MobileMenu = ({ menuOpen, setMenuOpen }) => {
     { key: "home", href: "#home" },
     { key: "about", href: "#about" },
     { key: "projects", href: "#project" },
+    { key: "services", href: "#services" },
     { key: "contact", href: "#contact" },
+    
   ];
 
   return (

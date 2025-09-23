@@ -86,7 +86,7 @@ export const Projects = () => {
         {/* Popup Modal for Portfolio */}
         {showPopup && (
           <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-50">
-            <div className="bg-white text-black p-6 rounded-xl shadow-xl text-center max-w-sm w-full animate-fade-in">
+            <div className="bg-white text-black p-6 rounded-xl shadow-xl text-center max-w-sm w-full -translate-y-80 custom-slide-up">
               <p className="text-lg font-medium mb-4">
                 {t("projects.portfolioPopup")}
               </p>
@@ -99,6 +99,26 @@ export const Projects = () => {
             </div>
           </div>
         )}
+
+        {/* 🔽 Slide-Up Animation Style */}
+        <style>
+          {`
+            @keyframes slideUpFade {
+              from {
+                opacity: 0;
+                transform: translateY(40px);
+              }
+              to {
+                opacity: 1;
+                transform: translateY(0);
+              }
+            }
+
+            .custom-slide-up {
+              animation: slideUpFade 0.4s ease-out;
+            }
+          `}
+        </style>
       </RevealOnScroll>
     </section>
   );

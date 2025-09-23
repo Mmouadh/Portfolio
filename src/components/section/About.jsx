@@ -16,6 +16,24 @@ export const About = () => {
   const backendSkills = ["Node.js", "Express.js", "Php"];
   const databases = ["Oracle", "MongoDB", "MySQL"];
 
+  const experiences = [
+    {
+      title: t("about.internship"),
+      year: t("about.internshipYear"),
+      desc: t("about.internshipDesc"),
+    },
+    {
+      title: t("about.SecondIntership"),
+      year: t("about.SecondIntershipYear"),
+      desc: t("about.SecondIntershipDesc"),
+    },
+    {
+      title: t("about.FirstWork"),
+      year: t("about.FirstWorkYear"),
+      desc: t("about.FirstWorkDesc"),
+    },
+  ];
+
   return (
     <section
       id="about"
@@ -101,13 +119,17 @@ export const About = () => {
 
             <div className="p-6 rounded-xl border-white/10 border hover:translate-x-1 transition-all">
               <h3 className="text-xl font-bold mb-4">{t("about.experience")}</h3>
-              <div>
-                <h4 className="font-bold">{t("about.internship")}</h4>
-                <span className="inline-block ml-50 -mb-10">
-                  {t("about.internshipYear")}
-                </span>
-                <p>{t("about.internshipDesc")}</p>
-              </div>
+              <ul className="list-disc list-inside space-y-4">
+                {experiences.map((exp, idx) => (
+                  <li key={idx}>
+                    <b>{exp.title}</b>{" "}
+                    <span className="inline-block ml-2">{exp.year}</span>
+                    <p className="mt-1" style={{ whiteSpace: "pre-line" }}>
+                      {exp.desc}
+                    </p>
+                  </li>
+                ))}
+              </ul>
             </div>
           </div>
         </div>

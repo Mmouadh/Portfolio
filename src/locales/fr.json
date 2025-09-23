@@ -1,7 +1,7 @@
 {
   "home": {
     "headline": "Salut, je suis Mouadh !",
-    "intro": "Je m'appelle Mouadh Jeljeli, développeur web de 26 ans basé en Tunisie. Je suis spécialisé dans la création d’applications web modernes, propres et responsives en utilisant HTML, CSS, JavaScript et React. Passionné par l’expérience utilisateur, j’utilise également des outils comme Bootstrap, Tailwind CSS, Next.js et Node.js. Toujours ouvert à des collaborations stimulantes — construisons quelque chose d’incroyable ensemble !",
+    "intro": "Je m'appelle Mouadh Jeljeli, développeur web de 27 ans basé en Tunisie. Je suis spécialisé dans la création d’applications web modernes, propres et responsives en utilisant HTML, CSS, JavaScript et React. Passionné par l’expérience utilisateur, j’utilise également des outils comme Bootstrap, Tailwind CSS, Next.js et Node.js. Toujours ouvert à des collaborations stimulantes — construisons quelque chose d’incroyable ensemble !",
     "viewProjects": "Voir les projets",
     "contactMe": "Contactez-moi"
   },
@@ -10,11 +10,12 @@
     "about": "À propos",
     "projects": "Projets",
     "contact": "Contactez-moi",
-    "language": "Langue"
+    "language": "Language",
+        "services": "Services"
   },
   "about": {
     "title": "À propos de moi",
-    "description": "Je suis Mouadh Jeljeli, un développeur web spécialisé en résolution de problèmes et en création d'applications web. Je conçois des sites efficaces et conviviaux et j’aime relever de nouveaux défis pour créer des solutions numériques percutantes.",
+"description": "Je me passionne pour la tech depuis l’âge de 10 ans, m’auto-formant au développement web, explorant des astuces IT et résolvant de vrais problèmes comme réparer des applications défaillantes et dépanner des erreurs logicielles. Au fil du temps, j’ai compris : « Rien n’est impossible en informatique. »",
     "frontend": "Front-End",
     "backend": "Back-End",
     "databases": "Bases de données",
@@ -28,7 +29,13 @@
     "experience": "Expérience professionnelle",
     "internship": "Stage à la Technopole Borj Cédria",
     "internshipYear": "(2023)",
-    "internshipDesc": "Assistance à la création d'interfaces front-end avec WordPress, configuration de plugins et support technique."
+    "internshipDesc": "Assistance à la création d'interfaces front-end avec WordPress, configuration de plugins et support technique.",
+    "SecondIntership": "Stage au Ministère de l'Équipement et de l'Habitat",
+  "SecondIntershipYear": "(2024)",
+  "SecondIntershipDesc": "Surveillé les opérations d'inventaire de l'équipement.\nMaintenu et dépanné les imprimantes et les PC anciens dans la salle serveur.\nDéveloppé une application web (HTML, CSS, JavaScript et PHP) pour gérer l'équipement.",
+  "FirstWork": "Développeur Web à la Clinique",
+  "FirstWorkYear": "(2025)",
+  "FirstWorkDesc": "Développé et maintenu le site web de la clinique en utilisant React et Tailwind.\nAssuré une expérience utilisateur conviviale et un design responsive."
   },
   "projects": {
     "title": "Projets",
@@ -54,6 +61,19 @@
       "description": "Une application de chat en temps réel développée avec React, Firebase Auth pour la connexion via Google, et Firestore pour le stockage des messages en temps réel. Les utilisateurs peuvent se connecter facilement avec Google, et les messages sont synchronisés instantanément entre les appareils pour une expérience dynamique et fluide."
     }
   },
+
+  "services": {
+  "title": "Services que je propose",
+  "fixing": "Réparation et débogage de sites web",
+  "fixingDesc": "Je résous les bugs, les problèmes d’interface et j’améliore les performances.",
+  "webApp": "Applications web sur mesure",
+  "webAppDesc": "Je développe des applications web personnalisées avec la stack MERN pour entreprises et particuliers.",
+  "frontend": "Développement Frontend",
+  "frontendDesc": "Sites web modernes et responsifs construits avec React et des frameworks CSS tels que Tailwind CSS.",
+  "maintenance": "Maintenance et optimisation",
+  "maintenanceDesc": "Refactorisation du code, amélioration de la vitesse et optimisation SEO de base."
+},
+
   "contact": {
     "title": "Contactez-moi",
     "namePlaceholder": "Nom... ",

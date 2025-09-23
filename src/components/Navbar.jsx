@@ -38,6 +38,9 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
             <a href="#project" className="hover:opacity-90 transition-colors">
               {t("Navbar.projects")}
             </a>
+             <a href="#services" className="hover:opacity-90 transition-colors">
+              {t("Navbar.services")}
+            </a>
             <a href="#contact" className="hover:opacity-90 transition-colors">
               {t("Navbar.contact")}
             </a>

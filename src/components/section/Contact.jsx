@@ -3,6 +3,11 @@ import { RevealOnScroll } from "../RevealOnScroll";
 import emailjs from "emailjs-com";
 import { useTranslation } from "react-i18next";
 
+console.log("Service ID:", import.meta.env.VITE_SERVICE_ID);
+console.log("Template ID:", import.meta.env.VITE_TEMPLATE_ID);
+console.log("Public Key:", import.meta.env.VITE_PUBLIC_KEY);
+
+
 export const Contact = () => {
   const { t } = useTranslation();
   const [formData, setFormData] = useState({
@@ -18,7 +23,7 @@ export const Contact = () => {
         import.meta.env.VITE_SERVICE_ID,
         import.meta.env.VITE_TEMPLATE_ID,
         e.target,
-        import.meta.env.VITE_PUBLIC_KEY
+        import.meta.env.VITE_PUBLIC_KEY,
       )
       .then(() => {
         alert(t("contact.successAlert"));
@@ -66,6 +71,7 @@ export const Contact = () => {
                 onChange={(e) =>
                   setFormData({ ...formData, email: e.target.value })
                 }
+                
               />
             </div>
             <div>
@@ -89,6 +95,7 @@ export const Contact = () => {
               {t("contact.sendButton")}
             </button>
           </form>
+          
         </div>
       </RevealOnScroll>
     </section>

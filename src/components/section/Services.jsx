@@ -38,7 +38,7 @@ export const Services = () => {
             {services.map((service, index) => (
               <div
                 key={index}
-                className="p-6 border border-gray-200 dark:border-gray-700 rounded-xl shadow hover:shadow-lg hover:-translate-y-1 transition-all"
+                className="glass p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_4px_20px_rgba(59,130,246,0.1)] transition-all"
               >
                 <h3 className="mb-3 text-xl font-semibold text-[color:var(--text-color)]">
                   {service.title}

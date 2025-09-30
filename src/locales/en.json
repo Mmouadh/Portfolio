@@ -44,6 +44,11 @@
     "title": "Featured Projects",
     "viewLink": "View Project →",
 
+  "todo": {
+    "title": "To-Do App (CRUD) with React",
+    "description": "A modern and responsive To-Do app built with React. Features include adding, editing, completing, and deleting tasks with a stylish user interface."
+  },
+
     "crud": {
       "title": "CRUDS Website + Login (Create, Read, Update, Delete & Search)",
       "description": "A CRUD website allows users to create, read, update, delete and search data entries, enabling efficient management of dynamic content."

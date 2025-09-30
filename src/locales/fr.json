@@ -41,6 +41,11 @@
     "title": "Projets",
     "viewLink": "Voir le projet →",
 
+     "todo": {
+    "title": "Application To-Do (CRUD) avec React",
+    "description": "Une application To-Do moderne et réactive construite avec React. Elle permet d'ajouter, modifier, compléter et supprimer des tâches avec une interface élégante."
+  },
+
     "portfolioPopup": "Tu es déjà sur le portfolio 👀",
 
     "crud": {

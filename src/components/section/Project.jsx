@@ -8,6 +8,12 @@ export const Projects = () => {
 
   const projects = [
     {
+      title: t("projects.todo.title"),
+      description: t("projects.todo.description"),
+      tech: ["React", "CSS", "JavaScript"],
+      link: "https://mmouadh.github.io/todoapp/",
+    },
+    {
       title: t("projects.crud.title"),
       description: t("projects.crud.description"),
       tech: ["HTML", "CSS", "JavaScript", "Php"],
@@ -17,13 +23,13 @@ export const Projects = () => {
       title: t("projects.portfolio.title"),
       description: t("projects.portfolio.description"),
       tech: ["React", "TailwindsCSS", "EmailJS"],
-      link: "#portfolio", 
+      link: "#portfolio",
     },
     {
       title: t("projects.ecommerce.title"),
       description: t("projects.ecommerce.description"),
       tech: ["MongoDB", "Express.js", "React", "Node.js", "CSS"],
-      link: "https://mmouadh.github.io/Ecomm-only-Front/", 
+      link: "https://mmouadh.github.io/Ecomm-only-Front/",
     },
     {
       title: t("projects.chat.title"),
@@ -83,22 +89,21 @@ export const Projects = () => {
           </div>
         </div>
 
-        {/* Popup Modal for Portfolio */}
+        {/* Full-Screen Popup Modal for Portfolio */}
         {showPopup && (
-          <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-50">
-            <div className="bg-white text-black p-6 rounded-xl shadow-xl text-center max-w-sm w-full -translate-y-80 custom-slide-up">
-              <p className="text-lg font-medium mb-4">
-                {t("projects.portfolioPopup")}
-              </p>
-              <button
-                onClick={() => setShowPopup(false)}
-                className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-md transition"
-              >
-                Close
-              </button>
-            </div>
-          </div>
-        )}
+  <div className="fixed inset-0 z-50 bg-black/50 flex items-center justify-center overflow-hidden">
+    <div className="relative w-full max-w-4xl mx-4 bg-white p-8 rounded-xl shadow-xl text-center">
+      <p className="text-xl text-blue-500 font-bold mb-6">{t("projects.portfolioPopup")}</p>
+      <button
+        onClick={() => setShowPopup(false)}
+        className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-md transition"
+      >
+        Close
+      </button>
+    </div>
+  </div>
+)}
+
 
         {/* 🔽 Slide-Up Animation Style */}
         <style>
@@ -106,7 +111,7 @@ export const Projects = () => {
             @keyframes slideUpFade {
               from {
                 opacity: 0;
-                transform: translateY(40px);
+                transform: translateY(80px);
               }
               to {
                 opacity: 1;
@@ -115,7 +120,7 @@ export const Projects = () => {
             }
 
             .custom-slide-up {
-              animation: slideUpFade 0.4s ease-out;
+              animation: slideUpFade 0.5s ease-out forwards;
             }
           `}
         </style>
